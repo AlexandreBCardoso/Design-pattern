@@ -15,7 +15,9 @@ Parece que temos um conflito. Ou o cliente gasta tempo verificando a disponibili
 
 ## 😃 Solução
 
-O **objeto** que tem um estado interessante é quase sempre chamado de **sujeito**(_subject_), mas já que ele também vai notificar outros objetos sobre as mudanças em seu estado, nós vamos chamá-lo de **publicador**(_publisher_). Todos os outros **objetos** que querem saber das mudanças do estado do **publicador**(_publisher’s) são chamados de **assinantes**(_subscribers_).
+O **objeto** que tem um estado interessante é quase sempre chamado de **sujeito**(_subject_), mas já que ele também vai notificar outros objetos sobre as mudanças em seu estado, nós vamos chamá-lo de **publicador**(_publisher_). Todos os outros **objetos** que querem saber das mudanças do estado do **publicador**(_publisher’s_) são chamados de **assinantes**(_subscribers_).
+
+![](imagens/Observer.png)
 
 Agora, sempre que um evento importante acontece com a publicadora, ele passa para seus assinantes e chama um método específico de notificação em seus objetos.
 
